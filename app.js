@@ -1,7 +1,7 @@
 'use strict';
 
 const debug = require('debug')('egg-passport-local');
-const PhoneStrategy = require('phone-local').Strategy;
+const PhoneStrategy = require('passport-phone').Strategy;
 
 
 module.exports = app => {
