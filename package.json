@@ -1,0 +1,63 @@
+{
+  "name": "egg-passport-phone",
+  "version": "1.0.0",
+  "description": "phone passport plugin for eggjs",
+  "eggPlugin": {
+    "name": "passportPhone",
+    "dependencies": [
+      "passport"
+    ]
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "egg-passport",
+    "egg-phone-passport"
+  ],
+  "dependencies": {
+    "debug": "^3.1.0",
+    "passport-phone": "^1.1.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.16.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "app"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sothx/egg-passport-phone.git"
+  },
+  "bugs": {
+    "url": "https://github.com//sothx/egg-passport-phone/issues"
+  },
+  "homepage": "https://github.com//sothx/egg-passport-phone#readme",
+  "author": "sothx",
+  "license": "MIT"
+}
