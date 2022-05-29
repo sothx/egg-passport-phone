@@ -6105,10 +6105,10 @@ pascalcase@^0.1.1:
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=
 
-passport-phone@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/passport-phone/-/passport-phone-1.2.0.tgz#16333ac8a38cc8a559b234b993a7dd7c500fcfee"
-  integrity sha512-OeiOmT31qchAmqeAaPfV3R3d1/AAlXauomdHuwpm9Tky7Sbd+MtEDULYdiwOLj2KmB1EZiELc6bfUNZy2nGJVQ==
+passport-phone@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/passport-phone/-/passport-phone-1.2.1.tgz#4359e0871ade7b0af9a06c50eec24485986a0327"
+  integrity sha512-Iyuot/apu9ZrMmwiRBhc3kNXM/4UsnUgTl+E0NOK4W49SGuZL1QVpEwyPvOpj8wmkI01Ha7bX3C/xV/xFwXwCg==
   dependencies:
     passport-strategy "1.x.x"
 
