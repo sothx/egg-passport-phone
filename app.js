@@ -1,6 +1,6 @@
 'use strict';
 
-const debug = require('debug')('egg-passport-local');
+const debug = require('debug')('egg-passport-phone');
 const PhoneStrategy = require('passport-phone').Strategy;
 
 
